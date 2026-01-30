@@ -15,8 +15,8 @@
   position: relative;
   z-index: 2;
 }
-
-
+/*底部宠物图*/
+.card-info {
 #footer-animal {
     position: relative;
     width: 100%;

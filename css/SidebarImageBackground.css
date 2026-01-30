@@ -15,37 +15,28 @@
   position: relative;
   z-index: 2;
 }
-/*底部宠物图*/
 
+/* 宠物图基础容器 */
 #footer-animal {
     position: relative;
-    width: 100%;
+    max-width: 1200px;
+    height: 60px; /* 根据图片高度调整 */
+    margin: 0 auto;
+    z-index: 1;
 }
 
-#footer-animal .animal-wall {
+/* 动物图片定位 */
+#footer-animal .animal {
     position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 36px;
-    max-width: none;
-    background: #bcb0a4 url(https://p.qjqq.cn/cover/202410191400532.png/color) repeat center;
-    background-size: auto 100%;
-    box-shadow: 0 4px 7px rgba(0,0,0,.15);
+    right: 40px; /* 距离右侧的距离 */
+    width: 200px; /* 图片宽度 */
+    height: auto;
+    z-index: 2;
+    pointer-events: none; /* 防止遮挡点击 */
 }
 
-@media screen and (max-width: 1023px) {
-    #footer-animal .animal-wall {
-        height:4vw
-    }
-}
-
-#footer-animal img.animal {
-    position: relative;
-    max-width: min(974px,100vw);
-    margin: 0 auto;
-    display: block;
-}
-
-#footer-bar {
-    margin-top: 0 !important;
+/* 确保页脚内容不被遮挡 */
+#footer_deal {
+    margin-top: 20px;
 }

@@ -8,3 +8,10 @@
   -moz-animation: Gradient 10s ease infinite;
   animation: Gradient 10s ease infinite !important;
 }
+
+/* 调整文字颜色与层级关系 */
+.card-info {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}

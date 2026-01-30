@@ -1,6 +1,6 @@
 /* 侧边栏头像卡片 */
 #aside-content>.card-widget.card-info::before {
-  background: url('自定义');
+  background: url('https://cdn.jsdelivr.net/gh/kingkare/owo/img/hdbjt.gif');
   border: 0;
   position: absolute;
   background-size: 100% 100%;

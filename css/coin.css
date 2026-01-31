@@ -75,7 +75,7 @@
 .tip-button::after {
     bottom: -1rem;
     color: #fff;
-    content: "ヾ(≧O≦)〃嗷~"; /* 修复了这里的乱码 */
+    content: "嗷~喵呜"; /* 修复了这里的乱码 */
     height: 140%;
     left: -5px;
     opacity: 0;

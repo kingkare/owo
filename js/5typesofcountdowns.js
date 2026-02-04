@@ -87,4 +87,5 @@ initCountdown();
 // 监听 Pjax 完成事件，确保跳转页面后侧边栏功能依然有效
 document.addEventListener('pjax:complete', function () {
     initCountdown();
+
 });

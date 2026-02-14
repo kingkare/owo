@@ -1,4 +1,4 @@
-//樱花
+//樱花1.0
  
 var stop, staticx;
 var img = new Image();
